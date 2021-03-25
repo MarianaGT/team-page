@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![myteampage](https://user-images.githubusercontent.com/64441365/112505162-230fba00-8d52-11eb-98ea-688474101bc0.png)
 
 This team page layout used a responsive grid to add and reduce the number of columns in order to respond to different size screens.
 
