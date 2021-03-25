@@ -34,20 +34,24 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
-.grid:nth-child(3) {
-  padding-top: 2em;
-}
-
 .flex {
   display: flex;
 }
 
 .img-container span {
+  writing-mode: vertical-rl;
+  margin-left: 0.5em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+/* Old solution
+.img-container span {
   transform: rotate(90deg);
   margin: 0 0 0 -12em;
   font-size: 0.8em;
   text-transform: uppercase;
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   body {padding: 4em;}
@@ -59,10 +63,6 @@ footer {
     display: flex;
     margin-bottom: 3em;
     padding-bottom: 4em;
-  }
-
-  .img-container span {
-  margin: 7em 0 0 -12em;
   }
 
   .grid {
