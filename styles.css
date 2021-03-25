@@ -23,6 +23,11 @@ img {
   border: 4px solid black;
 }
 
+footer {
+  margin-top: 4em;
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 3em;
